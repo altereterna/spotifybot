@@ -16,7 +16,7 @@
    - Save the credentials to `credentials.txt` using the UI.
 
 3. **Start the Bot:**
-   - Once configured, run `spoti.py` to start the bot and connect it to Twitch and Spotify.
+   - Once configured, run `spoti.py` or `install & run.bat` to start the bot and connect it to Twitch and Spotify.
 
 ## Usage
 
