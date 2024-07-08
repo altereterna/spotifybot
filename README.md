@@ -27,6 +27,14 @@
 
 - Use Twitch chat commands (`%np`, `%sr`, `%skip`, `%vol`, etc.) to interact with the bot during live streams.
 
+   Here are the commands:
+
+   %np - Displays the currently playing song.
+   %sr [song name or URL] - Requests the specified song to be added to the queue.
+   %skip - Skips the currently playing song.
+   %vol [volume level] - Sets the playback volume to the specified level.
+   %allowall - Allows all users to interact with the bot's commands.
+
 ## Additional Notes
 
 - **spotify redirect URI:**
