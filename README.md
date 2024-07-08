@@ -26,9 +26,9 @@
 - Customize `exceptions.txt` to add users allowed to use your bot (include your name too/no capslock needed).
 
 - Use Twitch chat commands (`%np`, `%sr`, `%skip`, `%vol`, etc.) to interact with the bot during live streams.
--
+
 - Here are the commands:
--
+
 - %np - Displays the currently playing song.
 - %sr [song name or URL] - Requests the specified song to be added to the queue.
 - %skip - Skips the currently playing song.
