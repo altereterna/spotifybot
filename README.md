@@ -27,18 +27,18 @@
 
 - Use Twitch chat commands (`%np`, `%sr`, `%skip`, `%vol`, etc.) to interact with the bot during live streams.
 
-Here are the commands:
+    Here are the commands:
 
-**%np** - Displays the currently playing song  
-**%sr [song name or URL]** - Requests the specified song to be added to the queue  
-**%skip** - Skips the currently playing song  
-**%vol [volume level]** - Sets the playback volume to the specified level  
-**%allowall** - Allows all users to interact with the bot's commands
+    **%np** - Displays the currently playing song  
+    **%sr [song name or URL]** - Requests the specified song to be added to the queue  
+    **%skip** - Skips the currently playing song  
+    **%vol [volume level]** - Sets the playback volume to the specified level  
+    **%allowall** - Allows all users to interact with the bot's commands
 
 ## Additional Notes
 
 - **spotify redirect URI:**
-   - I used `http://localhost:8888/callback`, it is is essentially a placeholder URL that points to a callback endpoint on your local machine, used in scenarios where OAuth flows need to redirect back to your application after user interaction.
+   - I used `http://localhost:8888/callback`, it is essentially a placeholder URL that points to a callback endpoint on your local machine, used in scenarios where OAuth flows need to redirect back to your application after user interaction.
 
 - **API Credentials:**
   - To create the Spotify API and get the Spotify Client ID and Client Secret, head to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
