@@ -29,11 +29,15 @@
 
 ## Additional Notes
 
+- **spotify redirect URI:**
+   - I used `http://localhost:8888/callback`, it is is essentially a placeholder URL that points to a callback endpoint on your local machine, used in scenarios where OAuth flows need to redirect back to your application after user interaction.
+
 - **API Credentials:**
   - To create the Spotify API and get the Spotify Client ID and Client Secret, head to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
   - To get your Twitch Bot Token, you can use [Twitch Token Generator](https://twitchtokengenerator.com/) or refer to the [Twitch OAuth documentation](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth/).
   - Your Twitch channel name should be the name, not the URL (e.g., "altereterna", not "https://www.twitch.tv/altereterna").
   - You can choose your own prefix for Twitch bot commands; the default is `%`.
+  - Please don't share your credentials with anyone, including me.
 
 ## Credits
 
